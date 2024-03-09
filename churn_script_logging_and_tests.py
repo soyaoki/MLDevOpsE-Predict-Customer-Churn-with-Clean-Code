@@ -1,3 +1,11 @@
+'''
+This script tests functions in churn_library.py.
+
+Author : Soya Aoki
+
+Creation Date : 9th March 2024
+'''
+
 import os
 import logging
 import churn_library as cls
