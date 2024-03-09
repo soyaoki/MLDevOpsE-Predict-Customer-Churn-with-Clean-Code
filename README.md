@@ -82,7 +82,6 @@ This project aims to develop a predictive model to identify customers who are li
 
   [Python 3.8]
   python -m pip install -r requirements_py3.8.txt
-
   ```
 
 - To execute model training and test
