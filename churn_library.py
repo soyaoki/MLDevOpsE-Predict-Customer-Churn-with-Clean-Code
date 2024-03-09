@@ -4,7 +4,7 @@ and evaluation for a bank customer churn prediction problem.
 
 Author : Soya Aoki
 
-Date : 9th March 2024
+Creation Date : 9th March 2024
 '''
 
 
@@ -328,6 +328,13 @@ def train_models(X_train, X_test, y_train, y_test):
     # Save best model
     joblib.dump(cv_rfc.best_estimator_, './models/rfc_model.pkl')
     joblib.dump(lrc, './models/logistic_model.pkl')
+    
+    # Plot ROC
+    plt.figure(figsize=(15, 8))
+    ax = plt.gca()
+    plot_roc_curve(cv_rfc.best_estimator_, X_test, y_test, ax=ax, alpha=0.8)
+    plot_roc_curve(lrc, X_test, y_test, ax=ax, alpha=0.8)
+    plt.savefig(fname='./images/results/ROCs.png')
 
     # Compute and save classification reports
     classification_report_image(y_train=y_train,
