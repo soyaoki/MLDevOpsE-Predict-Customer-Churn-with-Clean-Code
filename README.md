@@ -36,6 +36,7 @@ This project aims to develop a predictive model to identify customers who are li
 ```
 
 - **churn_library.py**: Python script containing functions for finding customers likely to churn.
+  ![](./sequencediagram.jpeg)
   
 - **churn_notebook.ipynb**: Jupyter Notebook containing the initial solution to identify customer churn without implementing engineering and software best practices.
 
@@ -75,33 +76,40 @@ This project aims to develop a predictive model to identify customers who are li
 ## Running Files
 
 - To prepare environment
-```
-[Python 3.6]
-python -m pip install -r requirements_py3.6.txt
+  ```
+  [Python 3.6]
+  python -m pip install -r requirements_py3.6.txt
 
-[Python 3.8]
-python -m pip install -r requirements_py3.8.txt
-
-```
+  [Python 3.8]
+  python -m pip install -r requirements_py3.8.txt
+  ```
 
 - To execute model training and test
-```
-ipython churn_library.py
-```
+  ```
+  ipython churn_library.py
+  ```
 
 - To test functions
-```
-ipython churn_script_logging_and_tests.py
-```
+  ```
+  ipython churn_script_logging_and_tests.py
+  ```
 
 - To format code using PEP8 style guide
-```
-autopep8 --in-place --aggressive --aggressive churn_script_logging_and_tests.py
-autopep8 --in-place --aggressive --aggressive churn_library.py
-```
+  ```
+  autopep8 --in-place --aggressive --aggressive churn_script_logging_and_tests.py
+  autopep8 --in-place --aggressive --aggressive churn_library.py
+  ```
 
 - To lint code
-```
-pylint churn_library.py
-pylint churn_script_logging_and_tests.py
-```
+  ```
+  pylint churn_library.py
+  pylint churn_script_logging_and_tests.py
+  ```
+
+  the `churn_library.py` score : 7.33/10
+
+  ![](./result_pylint_churn_library.png)
+
+  the `churn_script_logging_and_tests.py` score : 8.03/10
+
+  ![](./result_pylint_churn_script_logging_and_tests.png)
