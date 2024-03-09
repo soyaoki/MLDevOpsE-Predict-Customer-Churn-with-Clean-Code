@@ -1,0 +1,18 @@
+************* Module churn_script_logging_and_tests
+churn_script_logging_and_tests.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+churn_script_logging_and_tests.py:18:8: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:38:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:52:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:56:8: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:75:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:77:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:88:8: C0103: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:88:17: C0103: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:106:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:108:4: C0103: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:108:13: C0103: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+churn_script_logging_and_tests.py:1:0: W0611: Unused import os (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.03/10 (previous run: 8.03/10, +0.00)
+
