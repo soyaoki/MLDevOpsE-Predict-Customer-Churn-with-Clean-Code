@@ -328,7 +328,7 @@ def train_models(X_train, X_test, y_train, y_test):
     # Save best model
     joblib.dump(cv_rfc.best_estimator_, './models/rfc_model.pkl')
     joblib.dump(lrc, './models/logistic_model.pkl')
-    
+
     # Plot ROC
     plt.figure(figsize=(15, 8))
     ax = plt.gca()
